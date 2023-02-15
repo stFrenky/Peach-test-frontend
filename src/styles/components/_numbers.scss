@@ -1,0 +1,32 @@
+.numbers {
+	padding: 0 180px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 80px 177px;
+
+	@media (max-width: 1250px) {
+		gap: 80px 100px;
+	}
+
+	&__item {
+
+		@media (max-width: 1250px) {
+			width: calc((100% - 350px) / 2);
+		}
+	}
+
+	&__count {
+		font-size: 80px;
+		line-height: 80%;
+		white-space: nowrap;
+		color: #A30C33;
+		margin-bottom: 5px;
+	}
+
+	&__text {
+		font-size: 18px;
+		line-height: 150%;
+		max-width: 220px;
+	}
+}

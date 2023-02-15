@@ -32,9 +32,12 @@
 		display: inline-block;
 		cursor: pointer;
 
+		&:hover {
+			background: #D43152;
+		}
+
 		@media (max-width: 425px) {
 			padding: 6px 28px;
-
 		}
 	}
 }

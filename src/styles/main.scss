@@ -19,3 +19,13 @@ li {
 	max-width: 1250px;
 	margin: 0 auto;
 }
+
+.main {
+	display: flex;
+	flex-direction: column;
+	gap: 100px 0;
+
+	@media (max-width: 768px) {
+		gap: 60px 0;
+	}
+}
