@@ -1,3 +1,21 @@
 @use 'variables';
 @use 'fonts';
 @use 'typography';
+
+* {
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: inherit
+}
+
+li {
+	list-style: none;
+}
+
+.page {
+	max-width: 1250px;
+	margin: 0 auto;
+}

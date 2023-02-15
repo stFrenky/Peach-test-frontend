@@ -1,0 +1,40 @@
+.banner {
+	padding: 158px 70px;
+	background: url('/src/assets/images/banner_bg.jpg') no-repeat center top;
+	background-size: cover;
+
+	@media (max-width: 768px) {
+		padding: 90px 20px;
+	}
+
+	@media (max-width: 425px) {
+		padding: 40px 5px 96px;
+	}
+
+	&__title {
+		max-width: 710px;
+		margin-bottom: 60px;
+
+		@media (max-width: 768px) {
+			max-width: 400px;
+		}
+
+		@media (max-width: 425px) {
+			margin-bottom: 20px;
+		}
+	}
+
+	&__btn {
+		background: #B01736;
+		padding: 18px 28px;
+		color: #fff;
+		border-radius: 8px;
+		display: inline-block;
+		cursor: pointer;
+
+		@media (max-width: 425px) {
+			padding: 6px 28px;
+
+		}
+	}
+}
